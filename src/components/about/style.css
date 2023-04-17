@@ -1,0 +1,33 @@
+#about{
+    min-height: 70vh;
+    background-image: url(../../../public/Assets/images/creative/about-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.about-content{
+    width: 50%;
+    float: right;
+    padding: 12px;
+}
+.about-content h3, .about-content h2{
+    font-size: 34px;
+    text-transform: capitalize;
+}
+.about-content h3 span{
+    font-weight: 700;
+}
+.about-content h2{
+    color: var(--orange-color);
+}
+.about-content p{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-top: 4px !important;
+}
+@media(max-width:767px) {
+    .about-content{
+        width: 80%;
+    }
+}

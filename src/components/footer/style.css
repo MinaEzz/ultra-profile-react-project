@@ -1,0 +1,12 @@
+#footer{
+    background-color: #fff;
+    color: #888;
+    padding: 18px;
+}
+.footer-content{
+    text-align: center;
+}
+.footer-content h5{
+    text-transform: capitalize;
+    font-size: 18px;
+}

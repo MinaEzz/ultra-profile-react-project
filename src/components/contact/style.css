@@ -1,0 +1,38 @@
+#contact{
+    min-height: 90vh;
+    padding: 120px 0 !important;
+}
+form{
+    width: 60%;
+    margin: auto !important;
+}
+.form-item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px !important;
+}
+.form-item label{
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.form-item input, textarea{
+    padding: 10px 5px;
+    outline: none;
+    border: 1px solid var(--orange-color);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+form input[type="submit"] {
+    background-color: var(--orange-color);
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    width: 100%;
+}
+form input[type="submit"]:hover {
+    background-color: var(--orange-color) !important;
+    color: #fff !important;
+}

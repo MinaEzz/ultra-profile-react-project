@@ -1,0 +1,76 @@
+#profile{
+    min-height: 50vh;
+}
+.profile-item h2, .skills-item h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+.profile-item, .skills-item{
+    padding: 12px;
+}
+.profile-item ul{
+    list-style: none;
+    margin: 8px 0 !important;
+    padding: 0;
+}
+.profile-item ul li {
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #000;
+
+}
+.profile-item ul li span {
+    font-weight: 700;
+    margin-right: 8px !important;
+}
+
+.skills-content{
+    margin: 8px 0 !important;
+
+}
+.skills-content p{
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #888;
+}
+.skills-content .skill{
+    padding: 4px;
+    margin: 8px 0 !important;
+}
+.skill .details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.details span{
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-bottom: 4px !important;
+}
+.skill .bar{
+    height: 3px;
+    border-radius: 8px;
+    background-color: #888;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.bar .ps-bar, .bar .bootstrap-bar, .bar .js-bar{
+    height: 100%;
+    border-radius: inherit;
+    background-color: var(--orange-color);
+    -webkit-border-radius: inherit;
+    -moz-border-radius: inherit;
+    -ms-border-radius: inherit;
+    -o-border-radius: inherit;
+}
+.bar .ps-bar{
+    width: 80%;
+}
+.bar .bootstrap-bar{
+    width: 75%;
+}
+.bar .js-bar{
+    width: 60%;
+}

@@ -1,0 +1,84 @@
+#portfolio{
+    background-color: #f8f8f8;
+    min-height: 70vh;
+}
+.portfolio-item img{
+    width: 100%;
+}
+.portfolio-item figcaption button{
+    background-color: #fff;
+    color: #000;
+    font-size: 18px !important;
+    border: 1px solid var(--orange-color);
+}
+.portfolio-item figcaption button:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid var(--orange-color);
+}
+/* hover effect */
+.hover-img {
+    background-color: var(--orange-color);
+    color: #fff;
+    display: inline-block;
+    margin: 8px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+.hover-img {
+    box-sizing: border-box;
+    transition: all 0.45s ease;
+}
+.hover-img::before,
+.hover-img::after {
+    background-color: rgba(235, 84, 36, 0.3);
+    border-top: 32px solid rgba(235, 84, 36, 0.3);
+    border-bottom: 32px solid rgba(235, 84, 36, 0.3);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    transition: all 0.3s ease;
+    z-index: 1;
+    opacity: 0;
+    transform: scaleY(2);
+}
+.hover-img img {
+    vertical-align: top;
+    backface-visibility: hidden;
+}
+.hover-img figcaption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.1em;
+    opacity: 0;
+    z-index: 2;
+    transition-delay: 0.1s;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.hover-img:hover::before,
+.hover-img:hover::after {
+    transform: scale(1);
+    opacity: 1;
+}
+.hover-img:hover > img {
+    opacity: 0.7;
+}
+.hover-img:hover figcaption {
+    opacity: 1;
+}

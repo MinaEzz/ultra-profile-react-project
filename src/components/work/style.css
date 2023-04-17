@@ -1,0 +1,36 @@
+#work{
+    min-height: 70vh;
+}
+.work-card{
+    padding: 14px;
+    text-align: center;
+    border: 1px solid var(--orange-color);
+    min-height: 340px;
+    margin: 9px !important;
+}
+.card-icon{
+    background-color: var(--orange-color);
+    width: fit-content;
+    margin: auto !important;
+    padding: 14px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.work-card svg{
+    color: #fff;
+    font-size: 34px;
+}
+.work-card h3{
+    font-size: 32px;
+    text-transform: uppercase;
+    color: var(--orange-color);
+    margin: 20px 0 !important;
+
+}
+.work-card p{
+    font-size: 18px;
+    padding: 8px 0;
+}
